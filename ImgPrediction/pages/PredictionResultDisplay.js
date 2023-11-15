@@ -30,7 +30,7 @@ const styles = {
     gap: 15,
   },
   display: {
-    width: "100%",
+    width: "95%",
     height: "50%",
     alignItems: "center",
     justifyContent: "center",
