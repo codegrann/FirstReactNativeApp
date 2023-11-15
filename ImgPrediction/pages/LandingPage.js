@@ -1,6 +1,13 @@
 // pages/LandingPage.js
 import React from "react";
-import { View, Text, Image, Button, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  Image,
+  Button,
+  StyleSheet,
+  TouchableOpacity,
+} from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 const LandingPage = () => {
@@ -9,7 +16,14 @@ const LandingPage = () => {
     <View style={styles.container}>
       <Text>Welcome Aboard</Text>
       <Image source={require("../assets/logo.png")} style={styles.logo} />
-      <Button title="Start" onPress={() => navigation.navigate("HomePage")} />
+      <Button
+        title="Start"
+        style={styles.button}
+        onPress={() => navigation.navigate("HomePage")}
+      />
+      {/* <TouchableOpacity style={styles.button}> */}
+      {/* <Text style={styles.button}>Start</Text> */}
+      {/* </TouchableOpacity> */}
     </View>
   );
 };
@@ -19,7 +33,7 @@ const styles = StyleSheet.create({
     // backgroundColor: "aqua",
     width: "100%",
     height: "50%",
-    top: 65,
+    top: 60,
     alignItems: "center",
     justifyContent: "space-evenly",
     borderTop: "2px solid red",
@@ -31,7 +45,11 @@ const styles = StyleSheet.create({
     height: 100,
     borderRadius: "50%",
   },
-  button: {},
+  button: {
+    width: 70,
+    // padding: "30px",
+    backgroundColor: "blue",
+  },
 });
 
 export default LandingPage;
