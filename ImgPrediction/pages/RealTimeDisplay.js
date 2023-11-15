@@ -28,12 +28,12 @@ const styles = {
   display: {
     width: "100%",
     top: 50,
-    // height: 170,
+    height: "150%",
     // padding: 30,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(0,0,0,0.090)",
-    height: "150%",
+    // height: "150%",
     // border: "1px solid blue",
   },
   button: {
