@@ -16,10 +16,10 @@ const LandingPage = () => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "aqua",
+    // backgroundColor: "aqua",
     width: "100%",
     height: "50%",
-    top: "20%",
+    top: 65,
     alignItems: "center",
     justifyContent: "space-evenly",
     borderTop: "2px solid red",
@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
     backgroundColor: "red",
     width: 100,
     height: 100,
+    borderRadius: "50%",
   },
   button: {},
 });
