@@ -26,10 +26,15 @@ const App = () => {
           component={HomePage}
           options={{ title: "Home" }}
         />
-        <Stack.Screen name="Real Time" component={RealTimeDisplay} />
+        <Stack.Screen
+          name="Real Time"
+          component={RealTimeDisplay}
+          options={{ title: "Real Time Display" }}
+        />
         <Stack.Screen
           name="Image Prediction"
           component={PredictionResultDisplay}
+          options={{ title: "Image Prediction" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
