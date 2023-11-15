@@ -6,7 +6,7 @@ const styles = {
     marginTop: "6%",
     height: 80,
     border: "2px solid red",
-    font: "24pt",
+    // font: "24pt",
   },
 };
 export default styles;

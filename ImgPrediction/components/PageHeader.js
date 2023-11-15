@@ -6,6 +6,7 @@ import HeaderStyles from "../styles/HeaderStyles";
 const CustomHeader = ({ title }) => (
   <View style={HeaderStyles.header}>
     <Text>{title}</Text>
+    <hr />
   </View>
 );
 

@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     top: "20%",
     alignItems: "center",
     justifyContent: "space-evenly",
+    borderTop: "2px solid red",
   },
   logo: {
     backgroundColor: "red",
