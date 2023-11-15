@@ -7,10 +7,13 @@ const HomePage = ({ navigation }) => {
     <View style={styles.container}>
       <Text>What do you to do?</Text>
       {/* Add your logo and other content here */}
-      <Button title="Real Time" onPress={() => navigation.navigate("Page1")} />
+      <Button
+        title="Real Time"
+        onPress={() => navigation.navigate("Real Time")}
+      />
       <Button
         title="Image Prediction"
-        onPress={() => navigation.navigate("Page2")}
+        onPress={() => navigation.navigate("Image Prediction")}
       />
     </View>
   );

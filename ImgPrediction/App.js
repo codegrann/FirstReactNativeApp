@@ -7,7 +7,8 @@ import LandingPage from "./pages/LandingPage";
 import HomePage from "./pages/HomePage";
 import RealTimeDisplay from "./pages/RealTimeDisplay";
 import PredictionResultDisplay from "./pages/PredictionResultDisplay";
-import PageHeader from "./components/PageHeader";
+// import PageHeader from "./components/PageHeader";
+// (header: () => <PageHeader title="Welcome" /> })
 
 const Stack = createStackNavigator();
 
@@ -18,15 +19,18 @@ const App = () => {
         <Stack.Screen
           name="LandingPage"
           component={LandingPage}
-          options={{ header: () => <PageHeader title="Welcome" /> }}
+          options={{ title: "Welcome" }}
         />
         <Stack.Screen
           name="HomePage"
           component={HomePage}
-          options={{ header: () => <PageHeader title="Home" /> }}
+          options={{ title: "Home" }}
         />
-        <Stack.Screen name="Page1" component={RealTimeDisplay} />
-        <Stack.Screen name="Page2" component={PredictionResultDisplay} />
+        <Stack.Screen name="Real Time" component={RealTimeDisplay} />
+        <Stack.Screen
+          name="Image Prediction"
+          component={PredictionResultDisplay}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
