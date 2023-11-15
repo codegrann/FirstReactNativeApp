@@ -34,7 +34,7 @@ const styles = {
     justifyContent: "center",
     backgroundColor: "rgba(0,0,0,0.090)",
     height: "150%",
-    border: "1px solid blue",
+    // border: "1px solid blue",
   },
   button: {
     position: "absolute",

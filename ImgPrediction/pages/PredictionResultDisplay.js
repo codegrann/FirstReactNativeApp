@@ -21,7 +21,7 @@ const styles = {
     top: 60,
     alignItems: "center",
     justifyContent: "space-evenly",
-    borderTop: "2px solid red",
+    // borderTop: "2px solid red",
     // fontSize: 32,
   },
 };
