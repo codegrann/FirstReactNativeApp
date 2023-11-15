@@ -22,27 +22,25 @@ const PredictionResultDisplay = () => {
 
 const styles = {
   container: {
-    height: 230,
+    height: 400,
     // backgroundColor: "aqua",
-    top: 60,
+    top: 25,
     alignItems: "center",
     justifyContent: "space-evenly",
-    // borderTop: "2px solid red",
-    // fontSize: 32,
+    gap: 15,
   },
   display: {
     width: "100%",
-    height: 100,
-    // top: 50,
-    // height: 170,
-    // padding: 30,
+    height: "50%",
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(0,0,0,0.090)",
   },
   button: {
-    // position: "absolute",
-    // bottom: -200,
+    position: "absolute",
+    bottom: -70,
+    flexDirection: "row",
+    gap: 20,
   },
 };
 
