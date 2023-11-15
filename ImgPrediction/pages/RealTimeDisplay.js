@@ -26,7 +26,7 @@ const styles = {
     // fontSize: 32,
   },
   display: {
-    width: "100%",
+    width: "90%",
     top: 50,
     height: "150%",
     // padding: 30,

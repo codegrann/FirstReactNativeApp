@@ -31,15 +31,14 @@ const styles = {
     // fontSize: 32,
   },
   display: {
-    // width: "100%",
+    width: "100%",
+    height: 100,
     // top: 50,
     // height: 170,
     // padding: 30,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "rgba(0,0,0,0.090)",
-    // height: "150%",
-    // border: "1px solid blue",
   },
   button: {
     // position: "absolute",
