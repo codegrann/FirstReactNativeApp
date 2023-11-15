@@ -5,7 +5,7 @@ import { View, Text, Button, StyleSheet } from "react-native";
 const HomePage = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text>What do you to do?</Text>
+      <Text>What do you want to do?</Text>
       {/* Add your logo and other content here */}
       <Button
         title="Real Time"
