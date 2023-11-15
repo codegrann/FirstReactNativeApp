@@ -20,7 +20,11 @@ const App = () => {
           component={LandingPage}
           options={{ header: () => <PageHeader title="Welcome" /> }}
         />
-        <Stack.Screen name="HomePage" component={HomePage} />
+        <Stack.Screen
+          name="HomePage"
+          component={HomePage}
+          options={{ header: () => <PageHeader title="Home" /> }}
+        />
         <Stack.Screen name="Page1" component={RealTimeDisplay} />
         <Stack.Screen name="Page2" component={PredictionResultDisplay} />
       </Stack.Navigator>
